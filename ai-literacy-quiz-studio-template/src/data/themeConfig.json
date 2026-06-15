@@ -1,0 +1,87 @@
+{
+  "contentTitle": "채원이의 디지털 하루",
+  "heroTitle": "채원이의 디지털 하루",
+  "heroSubtitle": "디지털 세상에서 일어난 4가지 이야기",
+  "schoolName": "",
+  "subtitle": "",
+  "startGuide": "",
+  "startButtonText": "시작하기",
+  "progressTitle": "채원이의 디지털 하루 진행 현황",
+  "resultTitle": "나의 디지털 시민성 리포트",
+  "resultFooter": "잘한 부분은 더 키우고, 부족한 부분은 해설을 읽으며 다시 생각해 보세요.",
+  "palette": {
+    "surface": "#eef6fb",
+    "surfaceElevated": "#f8fbff",
+    "surfaceGlass": "#dfefff",
+    "navy": "#102235",
+    "ink": "#10243a",
+    "muted": "#506b84",
+    "line": "#b9cde0",
+    "sky": "#62c6f2",
+    "violet": "#8b5cf6",
+    "mint": "#5eead4",
+    "success": "#21a66b",
+    "danger": "#de4d5a",
+    "warning": "#f59e0b"
+  },
+  "ui": {
+    "radius": 42,
+    "borderWidth": 2,
+    "shadow": "rgba(8, 22, 38, 0.16)",
+    "spacing": 32,
+    "fontScale": 1,
+    "panelStyle": "cleanFlat",
+    "depthGap": 0.12,
+    "glassOpacity": 0.88
+  },
+  "domains": {
+    "engaging": {
+      "accent": "#2563eb",
+      "accentSoft": "#dbeafe",
+      "icon": "DAY1",
+      "shortLabel": "온라인 예절"
+    },
+    "creating": {
+      "accent": "#8b5cf6",
+      "accentSoft": "#ede9fe",
+      "icon": "DAY2",
+      "shortLabel": "정보 판별"
+    },
+    "managing": {
+      "accent": "#16a34a",
+      "accentSoft": "#dcfce7",
+      "icon": "DAY3",
+      "shortLabel": "개인정보"
+    },
+    "designing": {
+      "accent": "#f97316",
+      "accentSoft": "#ffedd5",
+      "icon": "DAY4",
+      "shortLabel": "사이버폭력"
+    }
+  },
+  "introVideo": {
+    "enabled": false,
+    "type": "mp4",
+    "url": "./assets/videos/ai-literacy-4-superpowers.mp4",
+    "title": "채원이의 디지털 하루",
+    "kicker": "사전 영상",
+    "description": "영상을 확인한 뒤 교실 속 마커를 선택해 퀴즈를 시작합니다.",
+    "confirmText": "영상 확인 완료",
+    "requiredBeforeQuiz": false
+  },
+  "arMission": {
+    "enabled": true,
+    "sequential": false,
+    "markerMode": true,
+    "order": [
+      "framework",
+      "engaging",
+      "creating",
+      "managing",
+      "designing",
+      "report",
+      "survey"
+    ]
+  }
+}

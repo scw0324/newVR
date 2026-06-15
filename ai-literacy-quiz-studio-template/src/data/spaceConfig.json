@@ -1,0 +1,113 @@
+{
+  "contentName": "채원이의 디지털 하루",
+  "entrance": {
+    "id": "entrance",
+    "title": "채원이의 디지털 하루",
+    "subtitle": "채원이와 함께 디지털 세상의 4가지 상황을 경험해 보세요.",
+    "guide": "입장 후 중앙 광장에서 Day 1~4 공간, 리포트 센터, 설문 정원으로 이동합니다.",
+    "position": "0 0 0",
+    "cameraPosition": "0 1.6 4",
+    "cameraRotation": "0 0 0",
+    "accent": "#7dd3fc"
+  },
+  "hub": {
+    "id": "hub",
+    "title": "채원이의 광장",
+    "titleKo": "중앙 광장",
+    "description": "채원이의 디지털 하루가 시작되는 곳이에요. 포털을 선택해 각 날의 이야기 속으로 들어가세요.",
+    "position": "0 0 -20",
+    "cameraPosition": "0 1.6 -14",
+    "cameraRotation": "0 0 0",
+    "accent": "#7dd3fc",
+    "ui": {
+      "progress": {
+        "position": "0 1.7 1.48",
+        "scale": "1.02 1.02 1.02"
+      }
+    }
+  },
+  "spaces": [
+    {
+      "id": "engaging",
+      "domainId": "engaging",
+      "title": "Day 1",
+      "titleKo": "댓글 하나가 시작된 일",
+      "description": "채원이가 올린 영상에 악플이 달렸어요. 온라인 소통과 예절에 대해 생각해 봐요.",
+      "position": "-24 0 -45",
+      "cameraPosition": "-24 1.6 -39",
+      "cameraRotation": "0 0 0",
+      "accent": "#2563eb",
+      "kind": "domain",
+      "portalPosition": "-3.45 1.24 0.82",
+      "portalRotation": "0 28 0"
+    },
+    {
+      "id": "creating",
+      "domainId": "creating",
+      "title": "Day 2",
+      "titleKo": "퍼지는 소문",
+      "description": "단톡방에 가짜 정보가 돌기 시작했어요. 진짜와 가짜를 어떻게 구별할까요?",
+      "position": "24 0 -45",
+      "cameraPosition": "24 1.6 -39",
+      "cameraRotation": "0 0 0",
+      "accent": "#8b5cf6",
+      "kind": "domain",
+      "portalPosition": "3.45 1.24 0.82",
+      "portalRotation": "0 -28 0"
+    },
+    {
+      "id": "managing",
+      "domainId": "managing",
+      "title": "Day 3",
+      "titleKo": "내 정보가 새고 있어",
+      "description": "앱 가입하다가 이상한 느낌이 들었어요. 개인정보를 어떻게 지킬까요?",
+      "position": "-24 0 -75",
+      "cameraPosition": "-24 1.6 -69",
+      "cameraRotation": "0 0 0",
+      "accent": "#16a34a",
+      "kind": "domain",
+      "portalPosition": "-4.15 1.22 -1.55",
+      "portalRotation": "0 58 0"
+    },
+    {
+      "id": "designing",
+      "domainId": "designing",
+      "title": "Day 4",
+      "titleKo": "화면 너머의 채원이에게",
+      "description": "친구가 사이버폭력을 당하고 있어요. 채원이는 어떻게 행동해야 할까요?",
+      "position": "24 0 -75",
+      "cameraPosition": "24 1.6 -69",
+      "cameraRotation": "0 0 0",
+      "accent": "#f97316",
+      "kind": "domain",
+      "portalPosition": "4.15 1.22 -1.55",
+      "portalRotation": "0 -58 0"
+    },
+    {
+      "id": "report",
+      "title": "결과 보기",
+      "titleKo": "채원이의 디지털 리포트",
+      "description": "4일간의 이야기를 마쳤어요. 나의 디지털 시민성 결과를 확인해 봐요.",
+      "position": "0 0 -105",
+      "cameraPosition": "0 1.6 -99",
+      "cameraRotation": "0 0 0",
+      "accent": "#12263f",
+      "kind": "report",
+      "portalPosition": "0 1.28 -3.55",
+      "portalRotation": "0 0 0"
+    },
+    {
+      "id": "survey",
+      "title": "소감 남기기",
+      "titleKo": "성찰 정원",
+      "description": "채원이와 함께한 4일을 돌아보며 느낀 점을 남겨 주세요.",
+      "position": "0 0 -130",
+      "cameraPosition": "0 1.6 -124",
+      "cameraRotation": "0 0 0",
+      "accent": "#14b8a6",
+      "kind": "survey",
+      "portalPosition": "4.92 1.16 1.92",
+      "portalRotation": "0 -78 0"
+    }
+  ]
+}
